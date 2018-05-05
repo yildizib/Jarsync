@@ -21,10 +21,10 @@
 
 package gnu.getopt;
 
-import java.util.Locale;
-import java.util.ResourceBundle;
-import java.util.PropertyResourceBundle;
 import java.text.MessageFormat;
+import java.util.Locale;
+import java.util.PropertyResourceBundle;
+import java.util.ResourceBundle;
 
 /**************************************************************************/
 
@@ -101,7 +101,7 @@ protected int val;
   * Localized strings for error messages
   */
 private ResourceBundle _messages = PropertyResourceBundle.getBundle(
-                            "gnu/getopt/MessagesBundle", Locale.getDefault());
+        "MessagesBundle", Locale.getDefault());
 
 /**************************************************************************/
 

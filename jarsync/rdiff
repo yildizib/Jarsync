@@ -28,7 +28,7 @@
 if [ "$CLASSPATH" ]; then
     CLASSPATH=$CLASSPATH:target/jarsync.jar
 else
-    CLASSPATH=target/jarsync.jar
+    CLASSPATH=target/jarsync-0.3.jar
 fi
 
 java -Xmx100M -classpath $CLASSPATH org.metastatic.rsync.Rdiff "$@"
